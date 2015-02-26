@@ -9,16 +9,16 @@ public class Rating extends Qualification {
 		return this.flightTime;
 	}
 
-	public void setFlightTime(int flightTime) {
-		this.flightTime = flightTime;
-	}
+	//public void setFlightTime(int flightTime) {
+	//	this.flightTime = flightTime;
+	//}
 
 	public int getAltFlightTime() {
 		return this.altFlightTime;
 	}
 
-	public void setAltFlightTime(int altFlightTime) {
-		this.altFlightTime = altFlightTime;
-	}
+	//public void setAltFlightTime(int altFlightTime) {
+	//	this.altFlightTime = altFlightTime;
+	//}
 
 }

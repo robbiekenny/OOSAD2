@@ -9,17 +9,17 @@ public class Pilot extends Professional {
 		return this.base;
 	}
 
-	public void setBase(String base) {
-		this.base = base;
-	}
+	//public void setBase(String base) {
+	//	this.base = base;
+	//}
 
 	public String getYearsOfService() {
 		return this.yearsOfService;
 	}
 
-	public void setYearsOfService(String yearsOfService) {
-		this.yearsOfService = yearsOfService;
-	}
+	//public void setYearsOfService(String yearsOfService) {
+	//	this.yearsOfService = yearsOfService;
+	//}
 
 public void printDetails()
 {

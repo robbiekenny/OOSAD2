@@ -9,16 +9,16 @@ public class Module {
 		return this.credits;
 	}
 
-	public void setCredits(int credits) {
-		this.credits = credits;
-	}
+	//public void setCredits(int credits) {
+	//	this.credits = credits;
+	//}
 
 	public String getName() {
 		return this.name;
 	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
+	//public void setName(String name) {
+	//	this.name = name;
+	//}
 
 }
