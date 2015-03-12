@@ -8,7 +8,7 @@ public Degree(String n,int l)
 {
 super(n);
 level = l;
-}
+}                     
 
 	public int getLevel() {
 		return this.level;
