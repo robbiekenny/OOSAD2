@@ -6,6 +6,7 @@
 */
 #include <iostream>
 #include "firstLib.h"
+#include <string>
 using namespace std;
 
 
@@ -31,9 +32,9 @@ cout << "Number must be between 1 and 3" << endl;
 }
 }
 
-void getMyLocation()
+void getMyLocation(string loc)
 {
-cout << "Your location is: Dublin" << endl;
+cout << "Your location is: " << loc << endl;
 }
 
 void weatherForecast(Days d)

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "firstLib.h"
 using namespace std;
 
@@ -11,7 +12,7 @@ cout << "please enter the number of days you wish to see the forecast for(1-3)" 
 cin >> numDays;
 weatherForecast(numDays);
 cout << endl;
-getMyLocation();
+getMyLocation("Dublin");
 
 cout << endl;
 cout << "please enter the number of days you wish to see the forecast for(1-3)" << endl;
@@ -21,3 +22,4 @@ d.days = numDays;
 weatherForecast(d);
 return 0;
 }
+
